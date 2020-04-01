@@ -6,7 +6,8 @@
 <h2>Project title PH</h2>
 
 <h4>Introduction</h3>
-<p>testing the introduction text.</br></br>Kind regards,</br>Phillip Allen Pearson</p>
+<p>testing the introduction text.</br></br>
+Kind regards,</br>Phillip Allen Pearson</p>
 <hr>
 <h4>File List</h4>
 <ul align="left">
