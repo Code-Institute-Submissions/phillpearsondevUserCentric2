@@ -9,6 +9,15 @@
 <p>testing the introduction text.</br></br>
 Kind regards,</br>Phillip Allen Pearson</p>
 </br>
+<h3>Tools</h3></br>
+<p>
+  <ul>
+    <li>Microsoft Visual Studio Code</li>
+    <li>GitHub Repositories</li>
+    <li>Google Chrome Browser</li>
+    <li>Chrome Developer Tools</li>
+  </ul>
+</p></br>
 <hr>
 <h3>File List</h3></br>
 <ul align="left">
