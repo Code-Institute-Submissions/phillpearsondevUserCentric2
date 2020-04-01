@@ -15,7 +15,7 @@ Kind regards,</br>Phillip Allen Pearson</p>
   <li>assets/css/style.css</li>
 </ul>
 <hr>
-<h4>Git Commands Reference<h4/>
+<h4>Git Commands Reference</h4>
 <p>
 For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>Note:</b> You must have the GitHub extensions installed aswell as Git and GitLens in order for the following process to work as written.</br></br>
