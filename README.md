@@ -16,7 +16,9 @@
 <hr>
 <h4>To Do List</h4>
 <p align="justify">
-  <b>1 -</b> Mentoring session about project inception. On the date of <b>02/04/2020</b> at <b>10:00am</b>.
+  <b>1 -</b> Reaffirm Git knowledge and 'push' basic file structure to github repository. On the date of <b>0/04/2020</b>.</br>
+  <b>2 -</b> Plan and Wireframe basic project ideas. On the date of <b>01/04/2020</b>.</br>
+  <b>3 -</b> Mentoring session about project inception. On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
 </p>
 <hr>
 <h4>Updates</h4>
