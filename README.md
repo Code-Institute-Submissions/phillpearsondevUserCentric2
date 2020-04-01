@@ -3,22 +3,24 @@
 <h2 align="center">Milestone Project</h2>
 <hr></br>
 
-<h2>Project title PH</h2>
+<h2>Project title PH</h2></br>
 
-<h4>Introduction</h3>
+<h4>Introduction</h3></br>
 <p>testing the introduction text.</br></br>
 Kind regards,</br>Phillip Allen Pearson</p>
+</br>
 <hr>
-<h4>File List</h4>
+<h4>File List</h4></br>
 <ul align="left">
   <li>index.html</li>
   <li>assets/css/style.css</li>
 </ul>
+</br>
 <hr>
-<h4>Git Commands Reference</h4>
+<h4>Git Commands Reference</h4></br>
 <p>
 For use via <b>'Microsot Visual Studio Code'</b></br>
-<b>Note:</b> You must have the GitHub extensions installed aswell as Git and GitLens in order for the following process to work as written.</br></br>
+<b>Note:</b> You must have the GitHub extensions installed aswell as Git and GitLens in order for the following process to work as written.</br>
 <ol>
 <li>In the Visual Studio Terminal, type <b>"cd"</b> and the name of the folder that you are storing your project files and structure. (you may need to "cd" into any subcategories) The terminal should update the current "dir" directory if successful and display it within the Terminal screen.</li></br></br>
   
@@ -35,27 +37,30 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <li><b>Commit your changes</b>. click <b>"Source Control"</b> which is the third icon down on the left hand side of the Visual Studio code window. providing you have GitLens installed, you should which files have been staged with Git. it's good practice to click the <b>refresh</b> icon before committing so you can see the most up-to-date changes. In the textbox within this panel, <b>type your commit message</b>, this can be anything. Then <b>hold ctrl+enter</b> on your keyboard to commit those changes</li></br></br>
 
 <li><b>Push your changes</b>. In the Terminal window, type: <b>"git push -u 'project nickname' master"</b>. Then hit enter/return. you should then see the terminal giving you updates on its progress in pushing your committed files to your github repository</li></br></br>
-
 </ol>
 </p>
 <hr>
-<h4>To Do List</h4>
+<h4>To Do List</h4></br>
 <p>
   <b>1 -</b> <s>Reaffirm Git knowledge and 'push' basic file structure to github repository.</s> On the date of <b>01/04/2020</b>.</br>
   <b>2 -</b> Plan and Wireframe basic project ideas. On the date of <b>01/04/2020</b>.</br>
   <b>3 -</b> Mentoring session about project inception. On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
 </p>
+</br>
 <hr>
-<h4>Updates</h4>
+<h4>Updates</h4></br>
 <p>
 <b>0.1 -</b> Re-purposed the "gipod-full-template" Readme.md file as the Documentation for my Project.</br>
 <b>0.2 -</b> Committed changes to the Readme.md file to assure basic Markdown functions are working.</br>
 <b>0.3 -</b> Git pushed basic file structure as a practice to the GitHub Repository.</br>
 <b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.<br>
 </p>
+</br>
 <hr>
-<h4>Citations</h4>
+<h4>Citations</h4></br>
 <p>
 If required.
 </p>
+</br>
+<hr>
 
