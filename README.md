@@ -5,19 +5,19 @@
 
 <h2>Project title PH</h2></br>
 
-<h4>Introduction</h3></br>
+<h3>Introduction</h3></br>
 <p>testing the introduction text.</br></br>
 Kind regards,</br>Phillip Allen Pearson</p>
 </br>
 <hr>
-<h4>File List</h4></br>
+<h3>File List</h3></br>
 <ul align="left">
   <li>index.html</li>
   <li>assets/css/style.css</li>
 </ul>
 </br>
 <hr>
-<h4>Git Commands Reference</h4></br>
+<h3>Git Commands Reference</h3></br>
 <p>
 For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>Note:</b> You must have the GitHub extensions installed aswell as Git and GitLens in order for the following process to work as written.</br>
@@ -40,7 +40,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 </ol>
 </p>
 <hr>
-<h4>To Do List</h4></br>
+<h3>To Do List</h3></br>
 <p>
   <b>1 -</b> <s>Reaffirm Git knowledge and 'push' basic file structure to github repository.</s> On the date of <b>01/04/2020</b>.</br>
   <b>2 -</b> Plan and Wireframe basic project ideas. On the date of <b>01/04/2020</b>.</br>
@@ -48,7 +48,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 </p>
 </br>
 <hr>
-<h4>Updates</h4></br>
+<h3>Updates</h3></br>
 <p>
 <b>0.1 -</b> Re-purposed the "gipod-full-template" Readme.md file as the Documentation for my Project.</br>
 <b>0.2 -</b> Committed changes to the Readme.md file to assure basic Markdown functions are working.</br>
@@ -57,7 +57,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 </p>
 </br>
 <hr>
-<h4>Citations</h4></br>
+<h3>Citations</h3></br>
 <p>
 If required.
 </p>
