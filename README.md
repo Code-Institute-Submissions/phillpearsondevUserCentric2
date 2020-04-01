@@ -4,7 +4,7 @@
 <hr></br>
 
 <h2>Project title PH</h2></br>
-
+<hr>
 <h3>Introduction</h3></br>
 <p>testing the introduction text.</br></br>
 Kind regards,</br>Phillip Allen Pearson</p>
