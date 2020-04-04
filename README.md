@@ -57,8 +57,11 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <h3>To Do List</h3></br>
 <p>
   <b>1 -</b> <s>Reaffirm Git knowledge and 'push' basic file structure to github repository.</s> On the date of <b>01/04/2020</b>.</br>
-  <b>2 -</b> Plan and Wireframe basic project ideas. On the date of <b>01/04/2020</b>.</br>
-  <b>3 -</b> Mentoring session about project inception. On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
+  <b>2 -</b> <s>Plan and Wireframe basic project ideas.</s> On the date of <b>01/04/2020</b>.</br>
+  <b>3 -</b> <s>Mentoring session about project inception.</s> On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
+  <b>4 -</b> Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo. <b>04/04/2020</b></br>
+  <b>5 -</b> Fix Footer, then, create links between each .html file via the nav-bar. <b>04/04/2020</b>.
+  <b>6 -</b> Copy basic HTML code into each file, to create a congruent aesthetic. <b>04/04/2020</b>.
 </p>
 </br>
 <hr>
@@ -67,14 +70,18 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>0.1 -</b> Re-purposed the "gipod-full-template" Readme.md file as the Documentation for my Project.</br>
 <b>0.2 -</b> Committed changes to the Readme.md file to assure basic Markdown functions are working.</br>
 <b>0.3 -</b> Git pushed basic file structure as a practice to the GitHub Repository.</br>
-<b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.<br>
+<b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.</br>
+</br>
+<b>1.0 -</b> Created the basic File structure/assets and aesthetic for Project.</br>
 </p>
 </br>
 <hr>
 <h3>Citations</h3></br>
-<p>
-If required.
-</p>
+<ul>
+  <li>Acquired the Logo-Napalm-238x300.png file from http://adinfinitumofficial.com/</li>
+  <li>Recycled the import code from the UXD Project for Fonts: "Roboto Mono" and "Exo"</li>
+  <li>Made use of hover effect classes from: "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"</li>
+</ul>
 </br>
 <hr>
 
