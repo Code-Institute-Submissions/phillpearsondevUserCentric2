@@ -22,7 +22,12 @@ Kind regards,</br>Phillip Allen Pearson</p>
 <h3>File List</h3></br>
 <ul align="left">
   <li>index.html</li>
+  <li>bio.html</li>
+  <li>media.html</li>
+  <li>events.html</li>
+  <li>contacts.html</li>
   <li>assets/css/style.css</li>
+  <li>assets/images/Logo-Napalm-238x300.png</li>
 </ul>
 </br>
 <hr>
