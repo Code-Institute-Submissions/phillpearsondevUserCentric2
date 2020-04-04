@@ -3,7 +3,7 @@
 <h2 align="center">Milestone Project</h2>
 <hr></br>
 
-<h2>Project title PH</h2></br>
+<h2>"Modus Operandi" (Band Website)</h2></br>
 <hr>
 <h3>Introduction</h3></br>
 <p>For my User Centric Milestone Project with 'Code Institute', I have landed on the idea; to produce a band website based off of my own band called 'Modus Operandi', of which allows me to draw a heavy amount of inspiration as it is already a major part of my hobbies. Plus I can use this project to prototype ideas both for the bands aesthetic aswell as for future Code Institute course projects. Such an eccentricity driving myself forward, will allow me to put greater brainpower and energy into testing my abillity both in design and with how much I have managed to integrate of what I have learned so far.</br> In this documentation, you should find, a list files contained within the project. Instrutions for using Git, with Microsoft Visual Studio Code (as that is my preffered program currently), a 'to-do-list' (largely for my own record) detailing each stage of development I intend to go through. Following that would be an 'Updates' section, detailing the changes and progression of the project that actually occured. and lastly, would be a Citations section, for any inspiration/libraries or other asset source used in my project.</br></br>
