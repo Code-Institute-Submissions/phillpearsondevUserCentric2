@@ -60,8 +60,8 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>2 -</b> <s>Plan and Wireframe basic project ideas.</s> On the date of <b>01/04/2020</b>.</br>
   <b>3 -</b> <s>Mentoring session about project inception.</s> On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
   <b>4 -</b> Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo. <b>04/04/2020</b></br>
-  <b>5 -</b> Fix Footer, then, create links between each .html file via the nav-bar. <b>04/04/2020</b>.
-  <b>6 -</b> Copy basic HTML code into each file, to create a congruent aesthetic. <b>04/04/2020</b>.
+  <b>5 -</b> Fix Footer, then, create links between each .html file via the nav-bar. <b>04/04/2020</b>.</br>
+  <b>6 -</b> Copy basic HTML code into each file, to create a congruent aesthetic. <b>04/04/2020</b>.</br>
 </p>
 </br>
 <hr>
