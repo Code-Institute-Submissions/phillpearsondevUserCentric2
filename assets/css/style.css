@@ -8,7 +8,7 @@
     margin: 0px;
     padding: 0px;
     clear: both;
-    background-color: #ffffff17;
+    background: #ffffff17;
 }
 
 ul {
@@ -18,6 +18,7 @@ ul {
 }
 
 .nav li {
+    width: 10%;
     margin: 12px;
     padding-top: 5px;
     padding-left: 8px;
@@ -27,6 +28,11 @@ ul {
     background: #ffffff17;
     align-self: center;
     box-shadow: 5px 5px 2px #000;
+}
+
+.nav a:hover {
+    color: rgb(255, 187, 0);
+    font-weight: bold;
 }
 
 .nav a {
@@ -40,12 +46,22 @@ ul {
     text-transform: uppercase;
 }
 
+.spacer-one {
+    width: auto;
+}
+
+#active {
+    color: rgb(255, 187, 0);
+    font-weight: bold;
+}
+
 /*---------- Footer ---------------------------------------------*/
 
 footer {
     margin: 0;
     padding: 0;
-    height: auto;
+    height: 80px;
+    width: 100%;
 }
 
 .footer-container {
@@ -55,12 +71,60 @@ footer {
     padding: 0px;
     clear: both;
     background-color: #ffffff17;
+}
+
+.footer-list {
+    text-align: center;
+}
+
+.footer-list div, a{
+    color: #fff;
     display: inline-block;
 }
 
-#napalm-logo {
-    text-align: center;
+.napalm-logo div i {
+    clear: both;
+    font-size: 25px;
+    display: inline-block;
+    vertical-align: middle;
 }
+
+.napalm-logo img {
+    height: 80px;
+    vertical-align: middle;
+}
+
+.social-link-right {
+    width: 20%;
+    margin: 12px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 0px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    box-shadow: 5px 5px 2px rgb(000, 0, 0);
+}
+
+.social-link-left {
+    width: 20%;
+    margin: 12px;
+    padding-top: 5px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 5px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    box-shadow: 5px 5px 2px #000;
+}
+
+.social-link-left a:hover, .social-link-right a:hover {
+    color: rgb(255, 187, 0);
+    font-weight: bolder;
+}
+
 
 /*------------------- Body ---------------------------------------*/
 
@@ -95,12 +159,10 @@ hr {
 }
 
 .transparent-wrapper {
-    margin-right: opx;
-    width: 100%;
+    margin-right: 0px;
+    width: auto;
     height: 700px;
     background-color: rgba(0, 0, 0, 0);
-    border-bottom: #000 solid 5px;
-    border-top: #000 solid 5px;
 }
 
 .spacer-one {
@@ -109,13 +171,125 @@ hr {
 
 /*----------------------- Media Queries ------------------------------*/
 
-@media screen and (max-width:420px) {
-        .nav li {
-            margin: 2px;
-            margin-top: 12px;
-            list-style: none;
-            background: #ffffff17;
-            align-self: center;
-    }
+@media screen and (max-width:320px) {
+    /*---------- Header ---------------------------------------------*/
+
+.nav {
+    width: 320px;
+}
+
+.nav li {
+    width: auto;
+    margin: 2px;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.spacer-one {
+    width: 320px;
+}
+
+/*---------- Footer ---------------------------------------------*/
+
+footer {
+    width: 320px;
+}
+
+.footer-container {
+    width: 320px;
+}
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-list div{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.napalm-logo div i {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.napalm-logo img {
+    height: 80px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.social-link-left, .social-link-right {
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0px #000;
+    border-radius: 40px;
+    position: initial;
+}
+
+.social-link-left a, .social-link-right a {
+    padding-top: 10px;
+}
+
+/*------------------- Body ---------------------------------------*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body h2, p {
+    text-align: center;
+}
+
+.heading-who {
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+hr {
+    width: 280px;
+}
+
+.paragraph-text {
+    text-align: center;
+    width: 85%;
+    margin-left: 20px;
+}
+
+.transparent-wrapper {
+    margin-right: 0px;
+    width: 320px;
+    height: 700px;
+}
+
+.transparent-wrapper img {
+    width: 320px;
+    margin-top: 40px;
+}
+
+.spacer-one {
+    height: 130px;
+}
+
 }
 
