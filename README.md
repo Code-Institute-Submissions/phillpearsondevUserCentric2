@@ -28,6 +28,7 @@ Kind regards,</br>Phillip Allen Pearson</p>
   <li>contacts.html</li>
   <li>assets/css/style.css</li>
   <li>assets/images/Logo-Napalm-238x300.png</li>
+  <li>assets/images/ModusOperandiLogo.png</li>
 </ul>
 </br>
 <hr>
@@ -59,9 +60,14 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>1 -</b> <s>Reaffirm Git knowledge and 'push' basic file structure to github repository.</s> On the date of <b>01/04/2020</b>.</br>
   <b>2 -</b> <s>Plan and Wireframe basic project ideas.</s> On the date of <b>01/04/2020</b>.</br>
   <b>3 -</b> <s>Mentoring session about project inception.</s> On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
-  <b>4 -</b> Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo. <b>04/04/2020</b></br>
-  <b>5 -</b> Fix Footer, then, create links between each .html file via the nav-bar. <b>04/04/2020</b>.</br>
-  <b>6 -</b> Copy basic HTML code into each file, to create a congruent aesthetic. <b>04/04/2020</b>.</br>
+  <b>4 -</b> <s>Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo.</s> <b>04/04/2020</b></br>
+  <b>5 -</b> <s>Fix Footer, then, create links between each .html file via the nav-bar.</s> <b>04/04/2020</b>.</br>
+  <b>6 -</b> <s>Copy basic HTML code into each file, to create a congruent aesthetic.</s> <b>04/04/2020</b>.</br>
+  <b>6 -</b> Markout and base style content in Bio.html. <b>15/04/2020</b>.</br>
+  <b>7 -</b> Markout and base style content in Contact.html <b>15/04/2020</b>.</br>
+  <b>8 -</b> Markout and base style content in Events.html. <b>15/04/2020</b>.</br>
+  <b>9 -</b> Markout and base style content in Media.html. <b>15/04/2020</b>.</br>
+  <b>10 -</b> Upload Wireframe Drawings. <b>15/04/2020</b>.</br>
 </p>
 </br>
 <hr>
@@ -73,6 +79,9 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.</br>
 </br>
 <b>1.0 -</b> Created the basic File structure/assets and aesthetic for Project.</br>
+<b>1.1 -</b> Updated core aestheitc in each core file. Inserted a Home page Logo. </br>
+<b>1.2 -</b> Enhanced interactivity, with Header, Footer.</br>
+<b>1.3 -</b> Fixed an issue, with 'a' display in 'mobile' sized displays.</br>
 </p>
 </br>
 <hr>
@@ -81,6 +90,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <li>Acquired the Logo-Napalm-238x300.png file from http://adinfinitumofficial.com/</li>
   <li>Recycled the import code from the UXD Project for Fonts: "Roboto Mono" and "Exo"</li>
   <li>Made use of hover effect classes from: "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"</li>
+  <li>Rusty Metal Texture, taken from Google Search, then altered by myself in Krita, used in "Modus Operandi" Logo</li>
 </ul>
 </br>
 <hr>
