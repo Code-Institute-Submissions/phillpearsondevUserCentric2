@@ -87,14 +87,14 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.</br>
 </br>
 <b>1.0 -</b> Created the basic File structure/assets and aesthetic for Project.</br>
-<b>1.01 -</b>Eleven day break occured.</br>
+<b>1.01 -</b> Eleven day break occured.</br>
 <b>1.1 -</b> Updated core aestheitc in each core file. Inserted a Home page Logo. </br>
 <b>1.2 -</b> Enhanced interactivity, with Header, Footer.</br>
 <b>1.3 -</b> Fixed an issue, with 'a' display in 'mobile' sized displays.</br>
 <b>1.4 -</b> Added vast amount of content to all pages.</br>
 <b>1.5 -</b> Improved @media queries across Home, media, bio and contact pages.</br>
 <b>1.6 -</b> Added an Animation zoom effect to logo on the index.html</br>
-<b>1.7 -</b> made a change in style.css to change change 'hover'/'active colours from yellow to blue.</br>
+<b>1.7 -</b> made a change in style.css to change change 'hover'/'active' colours from yellow to blue.</br>
 <b>1.71 -</b> Improved consistency of the Readme.md</br>
 </p>
 </br>
