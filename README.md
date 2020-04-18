@@ -29,6 +29,11 @@ Kind regards,</br>Phillip Allen Pearson</p>
   <li>assets/css/style.css</li>
   <li>assets/images/Logo-Napalm-238x300.png</li>
   <li>assets/images/ModusOperandiLogo.png</li>
+  <li>assets/images/paul.png</li>
+  <li>assets/images/phill.png</li>
+  <li>assets/images/sarah.png</li>
+  <li>assets/images/danjo.png</li>
+  <li>assets/images/harry.png</li>
 </ul>
 </br>
 <hr>
@@ -61,13 +66,16 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>2 -</b> <s>Plan and Wireframe basic project ideas.</s> On the date of <b>01/04/2020</b>.</br>
   <b>3 -</b> <s>Mentoring session about project inception.</s> On the date of <b>02/04/2020</b> at <b>10:00am</b>.</br>
   <b>4 -</b> <s>Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo.</s> <b>04/04/2020</b></br>
-  <b>5 -</b> <s>Fix Footer, then, create links between each .html file via the nav-bar.</s> <b>04/04/2020</b>.</br>
-  <b>6 -</b> <s>Copy basic HTML code into each file, to create a congruent aesthetic.</s> <b>04/04/2020</b>.</br>
-  <b>6 -</b> Markout and base style content in Bio.html. <b>15/04/2020</b>.</br>
-  <b>7 -</b> Markout and base style content in Contact.html <b>15/04/2020</b>.</br>
-  <b>8 -</b> Markout and base style content in Events.html. <b>15/04/2020</b>.</br>
-  <b>9 -</b> Markout and base style content in Media.html. <b>15/04/2020</b>.</br>
-  <b>10 -</b> Upload Wireframe Drawings. <b>15/04/2020</b>.</br>
+  <b>5 -</b> <s>Fix Footer, then, create links between each .html file via the nav-bar.</s> <b>04/04/2020</b></br>
+  <b>6 -</b> <s>Copy basic HTML code into each file, to create a congruent aesthetic.</s> <b>04/04/2020</b></br>
+  <b>6 -</b> <s>Markout and base style content in bio.html</s> <b>15/04/2020</b></br>
+  <b>7 -</b> <s>Markout and base style content in contact.html</s> <b>15/04/2020</b></br>
+  <b>8 -</b> <s>Markout and base style content in events.html</s> <b>15/04/2020</b></br>
+  <b>9 -</b> <s>Markout and base style content in media.html</s> <b>15/04/2020</b></br>
+  <b>10 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
+  <b>11 -</b> Expand video iframes quantity in media.html <b>18/04/2020</b></br>
+  <b>12 -</b> Make further development on the events page (fictious event dates and styles). <b>18/04/2020</b></br>
+  <b>13 -</b> Improve the @mediaqueries for the events page. <b>18/04/2020</b></br>
 </p>
 </br>
 <hr>
@@ -82,6 +90,10 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.1 -</b> Updated core aestheitc in each core file. Inserted a Home page Logo. </br>
 <b>1.2 -</b> Enhanced interactivity, with Header, Footer.</br>
 <b>1.3 -</b> Fixed an issue, with 'a' display in 'mobile' sized displays.</br>
+<b>1.4 -</b> Added vast amount of content to all pages.</br>
+<b>1.5 -</b> Improved @media queries across Home, media, bio and contact pages.</br>
+<b>1.6 -</b> Added an Animation zoom effect to logo on the index.html</br>
+<b>1.7 -</b> made a change in style.css to change change 'hover'/'active colours from yellow to blue.</br>
 </p>
 </br>
 <hr>
@@ -91,6 +103,11 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <li>Recycled the import code from the UXD Project for Fonts: "Roboto Mono" and "Exo"</li>
   <li>Made use of hover effect classes from: "https://cdnjs.cloudflare.com/ajax/libs/hover.css/2.3.1/css/hover-min.css"</li>
   <li>Rusty Metal Texture, taken from Google Search, then altered by myself in Krita, used in "Modus Operandi" Logo</li>
+  <li>Band Member photographs gained from their facebook profiles</li>
+  <li>iframe videos obtained from my personal youtube channel under 'unlisted' content</li>
+  <li>Member profiles (bio.html) inspired by googe searching "Criminal profiling examples"</li>
+  <li>Band logo Zoom animation recycled from "Love Running" project</li>
+  <li>Animted contact form in contact.html inspired by youtuber DarkCode"</li>
 </ul>
 </br>
 <hr>
