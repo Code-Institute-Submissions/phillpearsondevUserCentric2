@@ -68,14 +68,14 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>4 -</b> <s>Solve the issue in the Footer, enabling display of social links, either side of the 'Napalm' Logo.</s> <b>04/04/2020</b></br>
   <b>5 -</b> <s>Fix Footer, then, create links between each .html file via the nav-bar.</s> <b>04/04/2020</b></br>
   <b>6 -</b> <s>Copy basic HTML code into each file, to create a congruent aesthetic.</s> <b>04/04/2020</b></br>
-  <b>6 -</b> <s>Markout and base style content in bio.html</s> <b>15/04/2020</b></br>
-  <b>7 -</b> <s>Markout and base style content in contact.html</s> <b>15/04/2020</b></br>
-  <b>8 -</b> <s>Markout and base style content in events.html</s> <b>15/04/2020</b></br>
-  <b>9 -</b> <s>Markout and base style content in media.html</s> <b>15/04/2020</b></br>
-  <b>10 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
-  <b>11 -</b> Expand video iframes quantity in media.html <b>18/04/2020</b></br>
-  <b>12 -</b> Make further development on the events page (fictious event dates and styles). <b>18/04/2020</b></br>
-  <b>13 -</b> Improve the @mediaqueries for the events page. <b>18/04/2020</b></br>
+  <b>7 -</b> <s>Markout and base style content in bio.html</s> <b>15/04/2020</b></br>
+  <b>8 -</b> <s>Markout and base style content in contact.html</s> <b>15/04/2020</b></br>
+  <b>9 -</b> <s>Markout and base style content in events.html</s> <b>15/04/2020</b></br>
+  <b>10 -</b> <s>Markout and base style content in media.html</s> <b>15/04/2020</b></br>
+  <b>11 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
+  <b>12 -</b> Expand video iframes quantity in media.html <b>18/04/2020</b></br>
+  <b>13 -</b> Make further development on the events page (fictious event dates and styles). <b>18/04/2020</b></br>
+  <b>14 -</b> Improve the @mediaqueries for the events page. <b>18/04/2020</b></br>
 </p>
 </br>
 <hr>
@@ -87,6 +87,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>0.4 -</b> Updated the Readme.md file to include a <b>Git Commands Reference</b> section.</br>
 </br>
 <b>1.0 -</b> Created the basic File structure/assets and aesthetic for Project.</br>
+<b>1.01 -</b>Eleven day break occured.</br>
 <b>1.1 -</b> Updated core aestheitc in each core file. Inserted a Home page Logo. </br>
 <b>1.2 -</b> Enhanced interactivity, with Header, Footer.</br>
 <b>1.3 -</b> Fixed an issue, with 'a' display in 'mobile' sized displays.</br>
@@ -94,6 +95,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.5 -</b> Improved @media queries across Home, media, bio and contact pages.</br>
 <b>1.6 -</b> Added an Animation zoom effect to logo on the index.html</br>
 <b>1.7 -</b> made a change in style.css to change change 'hover'/'active colours from yellow to blue.</br>
+<b>1.71 -</b> Improved consistency of the Readme.md</br>
 </p>
 </br>
 <hr>
