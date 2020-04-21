@@ -556,7 +556,7 @@ hr {
     margin-bottom: 100px;
 }
 
-/*----------------------- Media Queries ------------------------------*/
+/*----------------------- Media Queries Mobile ------------------------------*/
 
 @media screen and (max-width:320px) {
 
@@ -871,3 +871,61 @@ hr {
 
 }
 
+/*----------------------- Media Queries Tablets ------------------------------*/
+
+@media screen and (max-width:768px) {
+
+.members img {
+    height: 300px;
+    width: 300px;
+    margin-top: 15%;
+    float: none;
+}
+
+.member-one, .member-two {
+    float: none;
+    margin: 0;
+    padding: 0;
+}
+
+.member-one-info, .member-two-info {
+    float: none;
+    text-align: center center;
+    margin: 0;
+    padding: 0;
+    margin-left: 23%;
+}
+
+.members p {
+    text-align: justify;
+    float: none;
+    margin-bottom: 15%;
+}
+
+.member-one-row, .member-two-row {
+    height: 860px;
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    padding: 0;    
+}
+
+#names {
+    float: left;
+}
+
+#names-left {
+    float: right;
+}
+
+body {
+    background: url("../images/BioBack.jpg") fixed;
+    background-repeat: no-repeat center center;
+    background-size: cover;
+}
+
+.contacts-back {
+    height: 770px;
+}
+
+}
