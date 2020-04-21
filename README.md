@@ -80,8 +80,8 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>12 -</b> <s>Expand video iframes quantity in media.html</s> <b>18/04/2020</b></br>
   <b>13 -</b> <s>Make further development on the events page (fictious event dates and styles).</s> <b>18/04/2020</b></br>
   <b>14 -</b> <s>Improve the @mediaqueries for the events page.</s> <b>18/04/2020</b></br>
-  <b>15 -</b> Work on Media Queries for bio.html and media.html in Tablet sizes<b>21/04/20202</b></br>
-  <b>16 -</b> Work on Media Queries for background image in tablet sizes.<b>21/04/20202</b></br>
+  <b>15 -</b> <s>Work on Media Queries for bio.html and media.html in Tablet sizes</s><b>21/04/20202</b></br>
+  <b>16 -</b> <s>Work on Media Queries for background image in tablet sizes.</s><b>21/04/20202</b></br>
   <b>17 -</b> Double check speeling and grammar over each page.<b>21/04/20202</b></br>
   <b>18 -</b> Deploy via GitHub pages, test on various devices (PC, Mobile)<b>21/04/20202</b></br>
 </p>
@@ -108,6 +108,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.81 -</b> Added backgroud images to each page as a standard. edited the band logo to include transparency around the letters.</br><b>1.82 -</b> Improved consistency of the color scheme across all pages before committing to GitHub.</br>
 <b>1.83 -</b> Updates Readme.md consistency (file list, to-do-list, updates, citations)</br>
 <b>1.84 -</b> Identified next-step tasks. Tablet media qeries, background image bug fix. Deploy.</br>
+<b>1.9 -</b> Completed Media Queries in PC, Mobile and Tablet sizes.</br>
 </p>
 </br>
 <hr>
