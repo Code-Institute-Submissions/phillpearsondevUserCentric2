@@ -2,6 +2,13 @@
 
 /*---------- Header ---------------------------------------------*/
 
+.home-transparent-wrapper {
+    height: 100%;
+    width: 100%;
+    clear: both;
+    margin: 0;
+}
+
 header {
     clear: both;
 }
@@ -12,17 +19,20 @@ header {
     margin: 0px;
     padding: 0px;
     clear: both;
-    background: #1d1d1d;
-    border-bottom: #1d1d1d solid 2px;
+    background: #080808;
+    border-bottom: #080808 solid 2px;
+    position: fixed;
+    z-index: 1;
 }
 
 .spacer-one img {
     text-align: center;
+    z-index: 0;
     margin: 0;
     padding: 0;
     width: 80%;
     margin-left: 10%;
-    margin-top: 110px;
+    margin-top: 150px;
     animation-name: hero-zoom;
     animation-duration: 5s;
     animation-fill-mode: forwards;
@@ -39,15 +49,16 @@ header {
   }
 
 .covid-warning {
+    position: fixed;
     width: 100%;
     height: 20px;
     background: red;
     font-size: 14px;
     font-family: "Exo";
     font-weight: 400;
-    margin: 0;
+    margin: 0px;
     padding: 0;
-    margin-top: 0;
+    margin-top: 52px;
     margin-bottom: 0;
     padding-top: 10px;
     padding-bottom: 10px;
@@ -74,7 +85,7 @@ ul {
     padding-right: 8px;
     padding-bottom: 2px;
     list-style: none;
-    background: #ffffff17;
+    background: #111111;
     align-self: center;
     box-shadow: 5px 5px 2px #000;
 }
@@ -137,6 +148,37 @@ iframe {
     padding-bottom: 12px;
 }
 
+.contacts-back {
+    background-image: url("../images/ContactsBack.jpg");
+    background-color: #000000;
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat center center;
+    padding-bottom: 50px;
+    padding-top: 120px;
+   }
+
+.home-back {
+    background-image: url("../images/HomeBack.jpg");
+    background-size: cover;
+    background-repeat: no-repeat center center;
+    background-color: #000000;
+    height: auto;
+    width: 100%;
+    padding-bottom: 400px;
+    border-bottom: solid #1d1d1d 1px;
+   }
+
+.home-text-back {
+    background-image: url("../images/HomeTextBack.jpg");
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat center center;
+    padding-top: 50px;
+    padding-bottom: 80px;
+   }
+
 .contact-form {
     width: 300px;
     padding: 2px;
@@ -145,8 +187,9 @@ iframe {
     left: 50%;
     right: 50%;
     transform: translate(-50%, -50%);
-    background: #1d1d1d; 
+    background: #1d1d1d8a;
 }
+
 
 .contact-form h2 {
     font-family: "Exo";
@@ -213,7 +256,7 @@ iframe {
     margin: 0;
     padding: 0;
     margin-left: 17%;
-    background-color: rgb(17, 17, 17);
+    background-color: #08080885;
     text-align: center;
     align-self: center;
 }
@@ -241,7 +284,7 @@ iframe {
     margin: 0;
     padding: 0;
     margin-left: 17%;
-    background-color: rgb(17, 17, 17);
+    background-color: #08080885;
     text-align: center;
     align-self: center;
 }
@@ -309,9 +352,89 @@ body p b {
     font-weight: 200;
 }
 
+/*------------------ Events Page --------------------------------*/
+
+.events-box {
+    float: left;
+    background: none;
+}
+
+.event-date-row {
+    clear: both;
+    height: 93px;
+    width: 80%;
+    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    padding: 0;
+    padding-top: 3px;
+    font-family: "Exo";
+    background-color: rgba(255, 255, 255, 0.062);
+}
+
+.event-black-box {
+    background: black;
+    margin: 12px;
+    width: auto;
+    height: 69px;
+
+}
+
+.event-date-description, .event-date-description b {
+    float: left;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.event-cancelled, .event-cancelled p {
+    float: right;
+    text-align: center center;
+    text-transform: uppercase;
+}
+
+.event-date-description, .event-cancelled {
+    display: inline-block;
+}
+
+.event-date-description {
+    width: auto;
+    margin: 0px;
+    margin-left: 12px;
+    margin-bottom: 12px;
+    background: none;
+    cursor: pointer;
+}
+
+.event-cancelled {
+    margin: 0;
+    background: red;
+    padding: 0;
+    margin-top: 12px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.event-cancelled p {
+    margin: 0;
+    padding: 12px;
+}
+
+#event-date {
+    font-size: 18px;
+}
+
+#event-location {
+    font-size: 14px;
+}
+
 /*---------- Footer ---------------------------------------------*/
 
 footer {
+    clear: both;
     margin: 0;
     padding: 0;
     height: 80px;
@@ -319,13 +442,15 @@ footer {
 }
 
 .footer-container {
+    clear: both;
     width: 100%;
     height: auto;
     margin: 0px;
     padding: 0px;
     clear: both;
-    background-color: #1d1d1d;
-    border-top: #1d1d1d solid 2px;
+    background-color: #080808;
+    border-top: #080808 solid 5px;
+    position: absolute;
 }
 
 .footer-list {
@@ -349,32 +474,6 @@ footer {
     vertical-align: middle;
 }
 
-/*.social-link-right {
-    width: 20%;
-    margin: 12px;
-    padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 0px;
-    list-style: none;
-    background: #ffffff17;
-    align-self: center;
-    box-shadow: 5px 5px 2px rgb(000, 0, 0);
-}
-
-.social-link-left {
-    width: 20%;
-    margin: 12px;
-    padding-top: 5px;
-    padding-left: 8px;
-    padding-right: 8px;
-    padding-bottom: 5px;
-    list-style: none;
-    background: #ffffff17;
-    align-self: center;
-    box-shadow: 5px 5px 2px #000;
-}*/
-
 .social-link-left a, .social-link-right a {
     padding-top: 10px;
 }
@@ -385,7 +484,7 @@ footer {
     margin-left: 12px;
     margin-right: 12px;
     list-style: none;
-    background: #ffffff17;
+    background: #111111;
     align-self: center;
     vertical-align: middle;
     box-shadow: 0px 0px 0px #000;
@@ -402,7 +501,8 @@ footer {
 /*------------------- Body ---------------------------------------*/
 
 body {
-    background-color: black;
+    background: url("../images/BioBack.jpg") fixed;
+    background-repeat: no-repeat center center;
     margin: 0;
     padding: 0;
 }
@@ -453,10 +553,20 @@ hr {
 /*----------------------- Media Queries ------------------------------*/
 
 @media screen and (max-width:320px) {
+
     /*---------- Header ---------------------------------------------*/
 
 .nav {
+    position: fixed;
+    clear: both;
     width: 320px;
+}
+
+.nav-bio {
+    z-index: 0;
+    margin-top: 0;
+    clear: both;
+    margin-bottom: 20px;
 }
 
 .nav li {
@@ -481,6 +591,10 @@ hr {
 .spacer-contact {
     height: 30%;
     width: 320px;
+}
+
+.home-back {
+    padding-bottom: 400px;
 }
 
 iframe {
@@ -524,7 +638,7 @@ iframe {
     margin: 0;
     padding: 0;
     margin-left: 5%;
-    background-color: rgb(17, 17, 17);
+    background-color: rgb(255, 255, 255, 0.062);
     text-align: center;
     align-self: center;
 }
@@ -590,13 +704,50 @@ body p b {
     margin-top: 0;
 }
 
+/*------------- Events -----------------------------------------*/
+
+.event-date-row, .event-black-box {
+    height: auto;
+}
+
+.event-date-description, .event-cancelled {
+    float: none;
+    text-align: center;
+}
+
+.event-cancelled {
+    margin: 0;
+    margin-left: 30%;
+}
+
+.event-date-description {
+    float: none;
+    margin-left: 25%;
+}
+
+.event-date-description b {
+    float: none;
+    text-align: center;
+}
+
+.event-black-box {
+    padding-bottom: 12px;
+}
+
+.event-date-row {
+    padding-bottom: 2px;
+    clear: both;
+}
+
 /*---------- Footer ---------------------------------------------*/
 
 footer {
+    clear: both;
     width: 320px;
 }
 
 .footer-container {
+    clear: both;
     width: 320px;
 }
 
@@ -682,17 +833,33 @@ hr {
 .transparent-wrapper {
     margin-right: 0px;
     width: 320px;
-    height: 568px;
+    height: 700px;
 }
 
 .transparent-wrapper img {
     height: auto;
-    width: 50%px;
+    width: 50%;
     margin-top: 70px;
 }
 
 .spacer-one {
     height: 150px;
+    clear: both;
+}
+
+.spacer-three {
+    clear: both;
+}
+
+.spacer-events {
+    clear: both;
+    height: 100px;
+}
+
+.spacer-bio {
+    clear: both;
+    height: 100px;
+    width: 100%;
 }
 
 }
