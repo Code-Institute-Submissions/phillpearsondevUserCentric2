@@ -77,8 +77,8 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>9 -</b> <s>Markout and base style content in events.html</s> <b>15/04/2020</b></br>
   <b>10 -</b> <s>Markout and base style content in media.html</s> <b>15/04/2020</b></br>
   <b>11 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
-  <b>12 -</b> Expand video iframes quantity in media.html <b>18/04/2020</b></br>
-  <b>13 -</b> Make further development on the events page (fictious event dates and styles). <b>18/04/2020</b></br>
+  <b>12 -</b> <s>Expand video iframes quantity in media.html</s> <b>18/04/2020</b></br>
+  <b>13 -</b> <s>Make further development on the events page (fictious event dates and styles).</s> <b>18/04/2020</b></br>
   <b>14 -</b> <s>Improve the @mediaqueries for the events page.</s> <b>18/04/2020</b></br>
   <b>15 -</b> Work on Media Queries for Medium/Tablet sized screens (index.html) <b>21/04/20202</b></br
   <b>16 -</b> Work on Media Queries for Medium/Tablet sized screens (bio.html) <b>21/04/20202</b></br>
