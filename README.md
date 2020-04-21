@@ -34,6 +34,10 @@ Kind regards,</br>Phillip Allen Pearson</p>
   <li>assets/images/sarah.png</li>
   <li>assets/images/danjo.png</li>
   <li>assets/images/harry.png</li>
+  <li>assets/images/HomeBack.jpg</li>
+  <li>assets/images/HomeTextBack.jpg</li>
+  <li>assets/images/ContactsBack.jpg</li>
+  <li>assets/images/BioBack.jpg</li>
 </ul>
 </br>
 <hr>
@@ -75,7 +79,12 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>11 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
   <b>12 -</b> Expand video iframes quantity in media.html <b>18/04/2020</b></br>
   <b>13 -</b> Make further development on the events page (fictious event dates and styles). <b>18/04/2020</b></br>
-  <b>14 -</b> Improve the @mediaqueries for the events page. <b>18/04/2020</b></br>
+  <b>14 -</b> <s>Improve the @mediaqueries for the events page.</s> <b>18/04/2020</b></br>
+  <b>15 -</b> Work on Media Queries for Medium/Tablet sized screens (index.html) <b>21/04/20202</b></br
+  <b>16 -</b> Work on Media Queries for Medium/Tablet sized screens (bio.html) <b>21/04/20202</b></br>
+  <b>17 -</b> Work on Media Queries for Medium/Tablet sized screens (media.html) <b>21/04/20202</b></br>
+  <b>18 -</b> Work on Media Queries for Medium/Tablet sized screens (events.html) <b>21/04/20202</b></br>
+  <b>19 -</b> Work on Media Queries for Medium/Tablet sized screens (contact.html) <b>21/04/20202</b></br>
 </p>
 </br>
 <hr>
@@ -96,6 +105,9 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.6 -</b> Added an Animation zoom effect to logo on the index.html</br>
 <b>1.7 -</b> made a change in style.css to change change 'hover'/'active' colours from yellow to blue.</br>
 <b>1.71 -</b> Improved consistency of the Readme.md</br>
+<b>1.8 -</b> Altered the color scheme in the style.css aswell as tweaked media queries and fixed the nav-bar positio to the top.</br>
+<b>1.81 -</b> Added backgroud images to each page as a standard. edited the band logo to include transparency around the letters.</br><b>1.82 -</b> Improved consistency of the color scheme across all pages before committing to GitHub.</br>
+<b>1.83 -</b> Updates Readme.md consistency (file list, to-do-list, updates, citations)</br>
 </p>
 </br>
 <hr>
@@ -109,7 +121,9 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <li>iframe videos obtained from my personal youtube channel under 'unlisted' content</li>
   <li>Member profiles (bio.html) inspired by googe searching "Criminal profiling examples"</li>
   <li>Band logo Zoom animation recycled from "Love Running" project</li>
-  <li>Animted contact form in contact.html inspired by youtuber DarkCode"</li>
+  <li>Animated contact form in contact.html inspired by youtuber DarkCode"</li>
+  <li>Background image in contact.html taken from https://wallpaperset.com/disturbed-backgrounds</li>
+  <li>Background image in index.html taken from https://www.chauvetprofessional.com/news/disturbed-dramatics-strike-4-fixtures-reflect-range-of-emotions/</li>
 </ul>
 </br>
 <hr>
