@@ -38,6 +38,7 @@ Kind regards,</br>Phillip Allen Pearson</p>
   <li>assets/images/HomeTextBack.jpg</li>
   <li>assets/images/ContactsBack.jpg</li>
   <li>assets/images/BioBack.jpg</li>
+  <li.theia/wireframes/</li>
 </ul>
 </br>
 <hr>
@@ -76,7 +77,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>8 -</b> <s>Markout and base style content in contact.html</s> <b>15/04/2020</b></br>
   <b>9 -</b> <s>Markout and base style content in events.html</s> <b>15/04/2020</b></br>
   <b>10 -</b> <s>Markout and base style content in media.html</s> <b>15/04/2020</b></br>
-  <b>11 -</b> Upload Wireframe Drawings. <b>15/04/2020</b></br>
+  <b>11 -</b> <s>Upload Wireframe Drawings.</s> <b>15/04/2020</b></br>
   <b>12 -</b> <s>Expand video iframes quantity in media.html</s> <b>18/04/2020</b></br>
   <b>13 -</b> <s>Make further development on the events page (fictious event dates and styles).</s> <b>18/04/2020</b></br>
   <b>14 -</b> <s>Improve the @mediaqueries for the events page.</s> <b>18/04/2020</b></br>
@@ -109,6 +110,7 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.83 -</b> Updates Readme.md consistency (file list, to-do-list, updates, citations)</br>
 <b>1.84 -</b> Identified next-step tasks. Tablet media qeries, background image bug fix. Deploy.</br>
 <b>1.9 -</b> Completed Media Queries in PC, Mobile and Tablet sizes.</br>
+<b>1.91 -</b> Uploaded the wireframes into .theia/wireframes (theia unintentional).</br>
 </p>
 </br>
 <hr>
