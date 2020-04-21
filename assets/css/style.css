@@ -354,6 +354,12 @@ body p b {
 
 /*------------------ Events Page --------------------------------*/
 
+.spacer-events {
+    clear: both;
+    width: 100%;
+    height: 180px;
+}
+
 .events-box {
     float: left;
     background: none;
@@ -853,7 +859,8 @@ hr {
 
 .spacer-events {
     clear: both;
-    height: 100px;
+    width: 100%;
+    height: 1300px;
 }
 
 .spacer-bio {
