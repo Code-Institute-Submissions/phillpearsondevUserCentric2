@@ -83,8 +83,8 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
   <b>14 -</b> <s>Improve the @mediaqueries for the events page.</s> <b>18/04/2020</b></br>
   <b>15 -</b> <s>Work on Media Queries for bio.html and media.html in Tablet sizes</s><b>21/04/20202</b></br>
   <b>16 -</b> <s>Work on Media Queries for background image in tablet sizes.</s><b>21/04/20202</b></br>
-  <b>17 -</b> Double check speeling and grammar over each page.<b>21/04/20202</b></br>
-  <b>18 -</b> Deploy via GitHub pages, test on various devices (PC, Mobile)<b>21/04/20202</b></br>
+  <b>17 -</b> <s>Double check speeling and grammar over each page.</s><b>21/04/20202</b></br>
+  <b>18 -</b> <s>Deploy via GitHub pages, test on various devices (PC, Mobile)</s><b>21/04/20202</b></br>
 </p>
 </br>
 <hr>
@@ -110,7 +110,9 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.83 -</b> Updates Readme.md consistency (file list, to-do-list, updates, citations)</br>
 <b>1.84 -</b> Identified next-step tasks. Tablet media qeries, background image bug fix. Deploy.</br>
 <b>1.9 -</b> Completed Media Queries in PC, Mobile and Tablet sizes.</br>
-<b>1.91 -</b> Uploaded the wireframes into .theia/wireframes (theia unintentional).</br>
+<b>1.91 -</b> Uploaded the wireframes into .theia/wireframes (theia unintentional).</br> 
+</br>
+<b>2.0 -</b> Launch! <b>22/04/2020</b>
 </p>
 </br>
 <hr>
