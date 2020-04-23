@@ -45,6 +45,7 @@ In this section there are ideas of new features that i'd like to possibly implem
   <li>Chrome Developer Tools</li>
   <li>Google Fonts</li>
   <li>Cloudflare</li>
+  <li>Font Awesome</li>
   <li>Git and GitLens 'Visual Studio Code' extensions</li>
 </ul>
 
@@ -148,8 +149,63 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <hr>
 
 <h2>Testing</h2></br>
-Test.
+As a starting note, in order to test features and minor changes as I have coded. In Visual Studio Code, I have clicked on 'File' then gone to 'Save/Save As' 'index.html' (for example) and them viewed the result of the change by opening the file in Google Chrome, by right clicking on the file I wish to open, and selecting 'Open with' and then finding the Google Chrome browser. And ideally viewing the desired result.
 
+<h3>Mobile Screens</h3>
+The steps I have used to test mobile sizes;</br>
+<ol>
+  <li>Open the desired file to test in the Chrome browser, by right clicking the file, and selecting 'open with'</li>
+  <li>Select the option Google Chrome</li>
+  <li>Once loaded, right clcik anywhere within the browser window and select 'inspect' (this wil open Developer tools on the right hand side of the screen</li>
+  <li>At the top of the screen you should see a screen size option (arranged left-right) with a downwards facing arrow to the right of the option name.</li>
+  <li>I selected 'Iphone 5/SE' with a width of 320px in order to see the result in mobile sizes as I made each individual change.</li>
+</ol>
+
+<h3>Tablet</h3>
+The steps I have used to test Tabelt sizes;</br>
+<ol>
+  <li>Open the desired file to test in the Chrome browser, by right clicking the file, and selecting 'open with'</li>
+  <li>Select the option Google Chrome</li>
+  <li>Once loaded, right clcik anywhere within the browser window and select 'inspect' (this wil open Developer tools on the right hand side of the screen</li>
+  <li>At the top of the screen you should see a screen size option (arranged left-right) with a downwards facing arrow to the right of the option name.</li>
+  <li>I selected 'Ipad' with a width of 768px in order to see the result in mobile sizes as I made each individual change.</li>
+</ol>
+
+<h3>PC Monitors</h3>
+The steps I have used to test standard monitor sizes;</br>
+<ol>
+  <li>Open the desired file to test in the Chrome browser, by right clicking the file, and selecting 'open with'</li>
+  <li>Select the option Google Chrome</li>
+  <li>(ignore if Dev tools are closed) if Developer tools are open, in the panel on the right, click the 'x' in the top right corner to close chrome developer tools in order to view the page in your computer monitors current resolution.</li>
+</ol>
+
+<h3>Navigation Bar</h3>
+The steps I have used to test for a working Navigation bar;</br>
+<h4>"a" elements</h4>
+<ol>
+  <li>Please refer to the instructions at the top of this section for testing in different screen sizes</li>
+  <li>Mouse over each Navigation option. In the bottom left corner of your browser windown, you should see the target of the 'a'(anchor) element displayed. e.g; www.facebook.com</li>
+  <li>As I added more .html files corresponding to the Nav options of "home, bio, media, events, contact" starting from left to right in the index.html (also refered to as "home") I clicked on each navigation option to see if the browser loaded the correct .html file</li>
+  <li>Then from left-right through the file list "index, bio, events, media, contact" and repeat the last step for each filename.</li>
+</ol>
+
+<h4>Styling</h4>
+Please refer to the instructions at the top of this section for testing in different screen sizes.
+
+<h3>Footer</h3>
+The steps I have used to test for a working Footer section;</br>
+<h4>Social Links</h4>
+<ol>
+  <li>Please refer to the instructions at the top of this section for testing in different screen sizes</li>
+  <li>Mouse over each circular Icon. In the bottom left corner of your browser window, you should see the target of the 'a'(anchor) element displayed. e.g; www.facebook.com, www.instagram etc</li>
+  <li>Starting from left to right in the index.html (also refered to as "home") I clicked on each Social Link option to see if the browser loaded the correct target</li>
+</ol>
+
+<h4>Styling</h4>
+Please refer to the instructions at the top of this section for testing in different screen sizes.
+<ol>
+  <li>Mouse over each social link. If the ".social-links:hover" in the style.css works correctly, you should see the font-awesome logos in each circular div turn from 'white' to 'blue'.</li>
+</ol>
 <hr>
 
 <h2>Deployment</h2></br>
@@ -160,7 +216,7 @@ I deployed the Project via GitHub pages. As I had never used them before, i foll
   <li>In the Github website, go to settings within your desired respository, scroll down until you see 'make public' (if visibillity is set to anything else.</li>
   <li>You must, rename your repository to match "username.github.io", in my case "phillpearsondev.github.io"</li>
   <li>Then within your desired repository, click the "Clone or Download" green button near the top of the page, and selet "Open in Desktop"</li>
-  <li>The repository shoud now have been "pulled" from GitHub.com to your device via opening the GitHub Desktop app on your device.</li>
+  <li>The repository should now have been "pulled" from GitHub.com to your device via opening the GitHub Desktop app on your device.</li>
   <li>I then made a small change to the text context in the index.html file, and saved</li>
   <li>With the changes made the the .git repository on your device (in this case my PC) click to commit the changes in the bottom left corner of the screen.</li>
   <li>Then ponce the changes have been committed, at the top of the screen in GitHub Desktop, clcik the button that says "Push to Origin", this will then overwrite the copy of the Repository on GitHub.com with the copy on your device.</li>
