@@ -1,7 +1,9 @@
-<h1>User Centric Development Milestone Project</h1></br>
-<h2>Modus Operandi - Band Website</h2></br>
+<h1 align="center">User Centric Development Milestone Project</h1></br>
+<h2 align="center">Modus Operandi - Band Website</h2></br>
+<hr><h3>Introduction</h3></br>
+<p>For my User Centric Milestone Project with 'Code Institute', I have landed on the idea; to produce a band website based off of my own band called 'Modus Operandi', of which allows me to draw a heavy amount of inspiration as it is already a major part of my hobbies. Plus I can use this project to prototype ideas both for the bands aesthetic aswell as for future Code Institute course projects. Such an eccentricity driving myself forward, will allow me to put greater brainpower and energy into testing my abillity both in design and with how much I have managed to integrate of what I have learned so far.</br> In this documentation, you should find, a list files contained within the project. Instructions for using Git, with Microsoft Visual Studio Code (as that is my preffered program currently), a 'to-do-list' (largely for my own record) detailing each stage of development I intend to go through. Following that would be an 'Updates' section, detailing the changes and progression of the project that actually occured. and lastly, would be a Credits section, for any inspiration/libraries or other asset source used in my project.</br></br>
+Kind regards,</br>Phillip Allen Pearson</p></br>
 <hr>
-</br>
 <h2>UX</h2></br>
 Test
 </br>
@@ -21,18 +23,29 @@ test
 </br>
 
 <h3>Features left to Implement</h3></br>
+
+In this section there are ideas of new features that i'd like to possibly implement in the future that would enhance the accessibillity and overall user experience.
+
 <ul>
-  <li>test 1</li>
-  <li>test 2</li>
+  <li>Merch Page (containing t-shirts, mugs, posters, CD & Vinyl etc)</li>
+  <li>Music Page (Featuring the Bands discography, possibly some sound-bites)</li>
+  <li>Login/Logout (for the purpose of collecting user data and using it in the merch page)</li>
+  <li>The abillity to sign up to a newsletter</li>
+  <li>Search bar</li>
+  <li>"Burger Menu Icon" (toggleable collapsable menu) for condensing The Navbar options into a more User friendly experience in Mobile sizes</li>
 </ul>
 </br>
 
 <h2>Technologies Used</h2></br>
 <ul>
   <li>Microsoft Visual Studio Code</li>
+  <li>HTML/CSS</li>
   <li>GitHub Repositories</li>
   <li>Google Chrome Browser</li>
   <li>Chrome Developer Tools</li>
+  <li>Google Fonts</li>
+  <li>Cloudflare</li>
+  <li>Git and GitLens 'Visual Studio Code' extensions</li>
 </ul>
 
 <hr>
@@ -140,12 +153,23 @@ Test.
 <hr>
 
 <h2>Deployment</h2></br>
-Test.
+I deployed the Project via GitHub pages. As I had never used them before, i followed GitHub pages instructions in order to successfully do so.</br>
+<ol>
+  <li>Download and Install the GitHub Desktop app</li>
+  <li>Using GitHub Desktop, login to your GitHub account</li>
+  <li>In the Github website, go to settings within your desired respository, scroll down until you see 'make public' (if visibillity is set to anything else.</li>
+  <li>You must, rename your repository to match "username.github.io", in my case "phillpearsondev.github.io"</li>
+  <li>Then within your desired repository, click the "Clone or Download" green button near the top of the page, and selet "Open in Desktop"</li>
+  <li>The repository shoud now have been "pulled" from GitHub.com to your device via opening the GitHub Desktop app on your device.</li>
+  <li>I then made a small change to the text context in the index.html file, and saved</li>
+  <li>With the changes made the the .git repository on your device (in this case my PC) click to commit the changes in the bottom left corner of the screen.</li>
+  <li>Then ponce the changes have been committed, at the top of the screen in GitHub Desktop, clcik the button that says "Push to Origin", this will then overwrite the copy of the Repository on GitHub.com with the copy on your device.</li>
+  <li>Your Project should now be live to view as a working webpage at an address much like "https://username.github.io" in my case "https://phillpearsondev.github.io"</li>
+</ol>
 
 <hr>
 
 <h2>Credits</h2></br>
-</br>
 <h3>Content</h3></br>
 All Text content is written by myself, some of which mixes fact and fiction.
 
