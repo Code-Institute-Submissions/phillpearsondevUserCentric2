@@ -159,7 +159,9 @@ For use via <b>'Microsot Visual Studio Code'</b></br>
 <b>1.9 -</b> Completed Media Queries in PC, Mobile and Tablet sizes.</br>
 <b>1.91 -</b> Uploaded the wireframes into .theia/wireframes (theia unintentional).</br> 
 </br>
-<b>2.0 -</b> Launch! <b>22/04/2020</b>
+<b>2.0 -</b> Launch? <b>22/04/2020</b>
+<b>2.1 -</b> Incorporated original Readme version with Code Institutes Readme.md template <b>24/04/2020</b>
+<b>2.1 -</b> Added many more @media queries as to assure the sites functions correctly on all devices. <b>24/04/2020</b>
 </p>
 </br>
 <hr>
@@ -175,6 +177,7 @@ The steps I have used to test mobile sizes;</br>
   <li>Once loaded, right clcik anywhere within the browser window and select 'inspect' (this wil open Developer tools on the right hand side of the screen</li>
   <li>At the top of the screen you should see a screen size option (arranged left-right) with a downwards facing arrow to the right of the option name.</li>
   <li>I selected 'Iphone 5/SE' with a width of 320px in order to see the result in mobile sizes as I made each individual change.</li>
+  <li>I then worked through each mobile device size, using 'Moto G4' with a width of 360px, 'Iphone 6/7/8' with a width of 375px, 'Iphone 6/7/8 Plus' with a width of 414px. This insures that the site would display on every device.</li>
 </ol>
 
 <h3>Tablet</h3>
@@ -185,6 +188,7 @@ The steps I have used to test Tabelt sizes;</br>
   <li>Once loaded, right clcik anywhere within the browser window and select 'inspect' (this wil open Developer tools on the right hand side of the screen</li>
   <li>At the top of the screen you should see a screen size option (arranged left-right) with a downwards facing arrow to the right of the option name.</li>
   <li>I selected 'Ipad' with a width of 768px in order to see the result in mobile sizes as I made each individual change.</li>
+  <li>I then selected 'Ipad Pro' with a width of 1024px, to ensure the site would display correctly on all tablet devices.</li>
 </ol>
 
 <h3>PC Monitors</h3>
@@ -203,10 +207,8 @@ The steps I have used to test for a working Navigation bar;</br>
   <li>Mouse over each Navigation option. In the bottom left corner of your browser windown, you should see the target of the 'a'(anchor) element displayed. e.g; www.facebook.com</li>
   <li>As I added more .html files corresponding to the Nav options of "home, bio, media, events, contact" starting from left to right in the index.html (also refered to as "home") I clicked on each navigation option to see if the browser loaded the correct .html file</li>
   <li>Then from left-right through the file list "index, bio, events, media, contact" and repeat the last step for each filename.</li>
+  <li>Mouse over each div with the nav element, you should see the text turn from white to blue, and the :hover effect should allow each div to grow.</li>
 </ol>
-
-<h4>Styling</h4>
-Please refer to the instructions at the top of this section for testing in different screen sizes.
 
 <h3>Footer</h3>
 The steps I have used to test for a working Footer section;</br>
@@ -215,17 +217,27 @@ The steps I have used to test for a working Footer section;</br>
   <li>Please refer to the instructions at the top of this section for testing in different screen sizes</li>
   <li>Mouse over each circular Icon. In the bottom left corner of your browser window, you should see the target of the 'a'(anchor) element displayed. e.g; www.facebook.com, www.instagram etc</li>
   <li>Starting from left to right in the index.html (also refered to as "home") I clicked on each Social Link option to see if the browser loaded the correct target</li>
+  <li>Mouse over each social link in the footer element. If the ".social-links:hover" in the style.css works correctly, you should see the font-awesome logos in each circular div turn from 'white' to 'blue'.</li>
 </ol>
 
-<h4>Styling</h4>
+<h3>Videos</h3>
 Please refer to the instructions at the top of this section for testing in different screen sizes.
 <ol>
-  <li>Mouse over each social link. If the ".social-links:hover" in the style.css works correctly, you should see the font-awesome logos in each circular div turn from 'white' to 'blue'.</li>
+  <li>Providing you have written the media query correctly, each video window should be displayed within the device window with a margin on the left and right of each video.</li>
+  <li>Click on each video window in turn to see if they play the video and audio correctly.</li>
+</ol>
+
+<h3>Contact Form</h3>
+Please refer to the instructions at the top of this section for testing in different screen sizes.
+<ol>
+  <li>Click inside each text input area to show their transition effect is working correctly by the width expanding and the border colour turning blue.</li>
+  <li>click inside each text input area and begin typing to show both the transition effect plus the abillity to type is working correctly.</li>
+  <li>Mouse over the submit buttom to show, the hover effect turn the text blue.</li>
+  <li>Click on the submit button to show the width of the button expand, the background colour change to blue, and the text turning white.</li>
 </ol>
 <hr>
-
 <h2>Deployment</h2></br>
-I deployed the Project via GitHub pages. As I had never used them before, i followed GitHub pages instructions in order to successfully do so.</br>
+I deployed the Project via GitHub pages. As I had never used them before, I followed GitHub pages instructions in order to successfully do so.</br>
 <ol>
   <li>Download and Install the GitHub Desktop app</li>
   <li>Using GitHub Desktop, login to your GitHub account</li>
