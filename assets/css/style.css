@@ -558,7 +558,7 @@ hr {
 
 /*----------------------- Media Queries Mobile ------------------------------*/
 
-@media screen and (max-width:320px) {
+@media screen and (device-width:320px) {
 
     /*---------- Header ---------------------------------------------*/
 
@@ -871,9 +871,937 @@ hr {
 
 }
 
+@media screen and (device-width:360px) {
+
+    /*---------- Header ---------------------------------------------*/
+
+.nav {
+    position: fixed;
+    clear: both;
+    width: 360px;
+}
+
+.nav-bio {
+    z-index: 0;
+    margin-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    width: auto;
+    margin: 2px;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.spacer-one {
+    width: 360px;
+}
+
+.spacer-two {
+    height: 10%;
+    width: 360px;
+}
+
+.spacer-contact {
+    height: 30%;
+    width: 360px;
+}
+
+.home-back {
+    padding-bottom: 400px;
+}
+
+iframe {
+    height: auto;
+    width: 80%;
+    margin-left: 12px;
+}
+
+.members {
+    height: auto;
+    width: 320px;
+}
+
+.members img {
+    height: 230px;
+    width: 230px;
+    border: #fff solid 2px;
+    margin: 30px;
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.members p, .member-one-info, .member-two-info {
+    height: auto;
+    width: 80%;
+    font-family: "Roboto Mono";
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-top: 0;
+    clear: both;
+}
+
+.member-one-row, .member-two-row {
+    height: auto;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-left: 12%;
+    background-color: rgb(255, 255, 255, 0.062);
+    text-align: center;
+    align-self: center;
+}
+
+.member-one, .member-two {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    float: none;
+}
+
+.member-one-info, .member-two-info {
+    height: auto;
+    width: auto;
+    margin: 30px;
+    padding: 0;
+    text-align: justify;
+    float: none;
+}
+
+.hr-solid {
+    clear: both;
+    width: 65%;
+    border-style: solid;
+    border-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hr {
+    clear: both;
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: #fff 2px;
+    border-style: dashed;
+    text-align: center;
+}
+
+.heading-red {
+    text-transform: uppercase;
+    font-family: "Roboto Mono";
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+body p b {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: overline #fff;
+    text-align: center;
+}
+
+#names, #names-left {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    float: none;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*------------- Events -----------------------------------------*/
+
+.event-date-row, .event-black-box {
+    height: auto;
+}
+
+.event-date-description, .event-cancelled {
+    float: none;
+    text-align: center;
+}
+
+.event-cancelled {
+    margin: 0;
+    margin-left: 30%;
+}
+
+.event-date-description {
+    float: none;
+    margin-left: 25%;
+}
+
+.event-date-description b {
+    float: none;
+    text-align: center;
+}
+
+.event-black-box {
+    padding-bottom: 12px;
+}
+
+.event-date-row {
+    padding-bottom: 2px;
+    clear: both;
+}
+
+/*---------- Footer ---------------------------------------------*/
+
+footer {
+    clear: both;
+    width: 360px;
+}
+
+.footer-container {
+    clear: both;
+    width: 360px;
+}
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-list div{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.napalm-logo div i {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.napalm-logo img {
+    height: 80px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.social-link-left, .social-link-right {
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0px #000;
+    border-radius: 40px;
+    position: initial;
+}
+
+.social-link-left a, .social-link-right a {
+    padding-top: 10px;
+}
+
+/*------------------- Body ---------------------------------------*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body h2, p {
+    text-align: center;
+}
+
+.contact-form {
+    height: 55%;
+    padding: 0;
+}
+
+.heading-who {
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+hr {
+    width: 80%;
+}
+
+.paragraph-text {
+    text-align: center;
+    width: 85%;
+    margin-left: 20px;
+}
+
+.transparent-wrapper {
+    margin-right: 0px;
+    width: 360px;
+    height: 700px;
+}
+
+.spacer-one {
+    height: 150px;
+    clear: both;
+}
+
+.spacer-three {
+    clear: both;
+}
+
+.spacer-events {
+    clear: both;
+    width: 100%;
+    height: 1300px;
+}
+
+.spacer-bio {
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+
+}
+
+@media screen and (device-width:375px) {
+
+    /*---------- Header ---------------------------------------------*/
+
+.nav {
+    position: fixed;
+    clear: both;
+    width: 375px;
+}
+
+.nav-bio {
+    z-index: 0;
+    margin-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    width: auto;
+    margin: 2px;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.spacer-one {
+    width: 375px;
+}
+
+.spacer-two {
+    height: 10%;
+    width: 375px;
+}
+
+.spacer-contact {
+    height: 30%;
+    width: 375px;
+}
+
+.home-back {
+    padding-bottom: 400px;
+}
+
+iframe {
+    height: auto;
+    width: 80%;
+    margin-left: 12px;
+}
+
+.members {
+    height: auto;
+    width: 320px;
+}
+
+.members img {
+    height: 230px;
+    width: 230px;
+    border: #fff solid 2px;
+    margin: 30px;
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.members p, .member-one-info, .member-two-info {
+    height: auto;
+    width: 80%;
+    font-family: "Roboto Mono";
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-top: 0;
+    clear: both;
+}
+
+.member-one-row, .member-two-row {
+    height: auto;
+    width: 90%;
+    margin: 0;
+    padding: 0;
+    margin-left: 12%;
+    background-color: rgb(255, 255, 255, 0.062);
+    text-align: center;
+    align-self: center;
+}
+
+.member-one, .member-two {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    float: none;
+}
+
+.member-one-info, .member-two-info {
+    height: auto;
+    width: auto;
+    margin: 30px;
+    padding: 0;
+    text-align: justify;
+    float: none;
+}
+
+.hr-solid {
+    clear: both;
+    width: 65%;
+    border-style: solid;
+    border-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hr {
+    clear: both;
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: #fff 2px;
+    border-style: dashed;
+    text-align: center;
+}
+
+.heading-red {
+    text-transform: uppercase;
+    font-family: "Roboto Mono";
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+body p b {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: overline #fff;
+    text-align: center;
+}
+
+#names, #names-left {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    float: none;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*------------- Events -----------------------------------------*/
+
+.event-date-row, .event-black-box {
+    height: auto;
+}
+
+.event-date-description, .event-cancelled {
+    float: none;
+    text-align: center;
+}
+
+.event-cancelled {
+    margin: 0;
+    margin-left: 30%;
+}
+
+.event-date-description {
+    float: none;
+    margin-left: 25%;
+}
+
+.event-date-description b {
+    float: none;
+    text-align: center;
+}
+
+.event-black-box {
+    padding-bottom: 12px;
+}
+
+.event-date-row {
+    padding-bottom: 2px;
+    clear: both;
+}
+
+/*---------- Footer ---------------------------------------------*/
+
+footer {
+    clear: both;
+    width: 375px;
+}
+
+.footer-container {
+    clear: both;
+    width: 375px;
+}
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-list div{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.napalm-logo div i {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.napalm-logo img {
+    height: 80px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.social-link-left, .social-link-right {
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0px #000;
+    border-radius: 40px;
+    position: initial;
+}
+
+.social-link-left a, .social-link-right a {
+    padding-top: 10px;
+}
+
+/*------------------- Body ---------------------------------------*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body h2, p {
+    text-align: center;
+}
+
+.contact-form {
+    height: 55%;
+    padding: 0;
+}
+
+.heading-who {
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+hr {
+    width: 80%;
+}
+
+.paragraph-text {
+    text-align: center;
+    width: 85%;
+    margin-left: 20px;
+}
+
+.transparent-wrapper {
+    margin-right: 0px;
+    width: 375px;
+    height: 700px;
+}
+
+.spacer-one {
+    height: 150px;
+    clear: both;
+}
+
+.spacer-three {
+    clear: both;
+}
+
+.spacer-events {
+    clear: both;
+    width: 100%;
+    height: 1300px;
+}
+
+.spacer-bio {
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+
+}
+
+@media screen and (device-width:414px) {
+
+    /*---------- Header ---------------------------------------------*/
+
+.nav {
+    position: fixed;
+    clear: both;
+    width: 414px;
+}
+
+.nav-bio {
+    z-index: 0;
+    margin-top: 0;
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.nav li {
+    width: auto;
+    margin: 2px;
+    margin-top: 12px;
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 2px;
+}
+
+.spacer-one {
+    width: 414px;
+}
+
+.spacer-two {
+    height: 10%;
+    width: 414px;
+}
+
+.spacer-contact {
+    height: 30%;
+    width: 414px;
+}
+
+.home-back {
+    padding-bottom: 400px;
+}
+
+iframe {
+    height: auto;
+    width: 80%;
+    margin-left: 12px;
+}
+
+.members {
+    height: auto;
+    width: 414px;
+}
+
+.members img {
+    height: 230px;
+    width: 230px;
+    border: #fff solid 2px;
+    margin: 30px;
+    clear: both;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.members p, .member-one-info, .member-two-info {
+    height: auto;
+    width: 90%;
+    font-family: "Roboto Mono";
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 30px;
+    margin-left: 10%;
+    padding-bottom: 40px;
+    margin-top: 0;
+    clear: both;
+}
+
+.member-one-row, .member-two-row {
+    height: auto;
+    width: 80%;
+    margin: 0;
+    padding: 0;
+    margin-left: 10%;
+    background-color: rgb(255, 255, 255, 0.062);
+    text-align: center;
+    align-self: center;
+}
+
+.member-one, .member-two {
+    margin: 0;
+    padding: 0;
+    margin-left: 0;
+    float: none;
+}
+
+.member-one-info, .member-two-info {
+    height: auto;
+    width: auto;
+    margin: 30px;
+    padding: 0;
+    text-align: justify;
+    float: none;
+}
+
+.hr-solid {
+    clear: both;
+    width: 65%;
+    border-style: solid;
+    border-color: #fff;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.hr {
+    clear: both;
+    width: 35%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: #fff 2px;
+    border-style: dashed;
+    text-align: center;
+}
+
+.heading-red {
+    text-transform: uppercase;
+    font-family: "Roboto Mono";
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+}
+
+body p b {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: overline #fff;
+    text-align: center;
+}
+
+#names, #names-left {
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 200;
+    float: none;
+    text-align: center;
+    margin-top: 0;
+}
+
+/*------------- Events -----------------------------------------*/
+
+.event-date-row, .event-black-box {
+    height: auto;
+}
+
+.event-date-description, .event-cancelled {
+    float: none;
+    text-align: center;
+}
+
+.event-cancelled {
+    margin: 0;
+    margin-left: 32%;
+}
+
+.event-date-description {
+    float: none;
+    margin-left: 30%;
+    text-align: center;
+}
+
+.event-date-description b {
+    float: none;
+    text-align: center;
+}
+
+.event-black-box {
+    padding-bottom: 12px;
+}
+
+.event-date-row {
+    padding-bottom: 2px;
+    clear: both;
+}
+
+/*---------- Footer ---------------------------------------------*/
+
+footer {
+    clear: both;
+    width: 414px;
+}
+
+.footer-container {
+    clear: both;
+    width: 414px;
+}
+
+.footer-list {
+    text-align: center;
+    vertical-align: middle;
+}
+
+.footer-list div{
+    color: #fff;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.napalm-logo div i {
+    height: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.napalm-logo img {
+    height: 80px;
+    padding-top: 12px;
+    vertical-align: middle;
+}
+
+.social-link-left, .social-link-right {
+    width: 45px;
+    height: 45px;
+    margin-left: 12px;
+    margin-right: 12px;
+    list-style: none;
+    background: #ffffff17;
+    align-self: center;
+    vertical-align: middle;
+    box-shadow: 0px 0px 0px #000;
+    border-radius: 40px;
+    position: initial;
+}
+
+.social-link-left a, .social-link-right a {
+    padding-top: 10px;
+}
+
+/*------------------- Body ---------------------------------------*/
+
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+
+body h2, p {
+    text-align: center;
+}
+
+.contact-form {
+    height: 55%;
+    padding: 0;
+}
+
+.heading-who {
+    text-align: center;
+    letter-spacing: 10px;
+    margin-left: 20px;
+    font-size: 12px;
+    font-weight: 100;
+}
+
+hr {
+    width: 80%;
+}
+
+.paragraph-text {
+    text-align: center;
+    width: 85%;
+    margin-left: 30px;
+}
+
+.transparent-wrapper {
+    margin-right: 0px;
+    width: 414px;
+    height: 700px;
+}
+
+.spacer-one {
+    height: 150px;
+    clear: both;
+}
+
+.spacer-three {
+    clear: both;
+}
+
+.spacer-events {
+    clear: both;
+    width: 100%;
+    height: 1300px;
+}
+
+.spacer-bio {
+    clear: both;
+    height: 100px;
+    width: 100%;
+}
+
+}
+
 /*----------------------- Media Queries Tablets ------------------------------*/
 
-@media screen and (max-width:768px) {
+@media screen and (device-width:768px) {
 
 .members img {
     height: 300px;
@@ -929,3 +1857,86 @@ body {
 }
 
 }
+
+@media screen and (device-width:1024px) {
+
+    .members img {
+        height: 400px;
+        width: 400px;
+        margin-top: 15%;
+        float: none;
+    }
+    
+    .member-one, .member-two {
+        float: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .member-one-info, .member-two-info {
+        float: none;
+        text-align: center center;
+        margin: 0;
+        padding: 0;
+        margin-left: 30%;
+    }
+    
+    .members p {
+        text-align: justify;
+        float: none;
+        margin-bottom: 15%;
+        font-size: 20px;
+    }
+    
+    .member-one-row, .member-two-row {
+        height: 1380px;
+        width: 80%;
+        margin: 0;
+        margin-left: 10%;
+        padding: 0;    
+    }
+    
+    #names {
+        float: left;
+        font-size: 30px;
+    }
+    
+    #names-left {
+        float: right;
+        font-size: 30px;
+    }
+    
+    body {
+        background: url("../images/BioBack.jpg") fixed;
+        background-repeat: no-repeat center center;
+        background-size: cover;
+    }
+    
+    .contacts-back {
+        background-image: url("../images/ContactsBack2.jpg");
+        background-color: #000000;
+        background-size: cover;
+        background-repeat: no-repeat center center;
+        padding-bottom: 900px;
+        padding-top: 120px;
+    }
+    
+    .contact-form {
+        margin-top: 300px;
+    }
+
+    .home-transparent-wrapper {
+        height: 100%;
+    }
+
+    .home-text-back {
+        padding-top: 22%;
+        padding-bottom: 22%;
+    }
+
+    .home-paragraph-text-tablet {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    }
