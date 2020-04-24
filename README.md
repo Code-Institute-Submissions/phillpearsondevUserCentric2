@@ -4,21 +4,37 @@
 <p>For my User Centric Milestone Project with 'Code Institute', I have landed on the idea; to produce a band website based off of my own band called 'Modus Operandi', of which allows me to draw a heavy amount of inspiration as it is already a major part of my hobbies. Plus I can use this project to prototype ideas both for the bands aesthetic aswell as for future Code Institute course projects. Such an eccentricity driving myself forward, will allow me to put greater brainpower and energy into testing my abillity both in design and with how much I have managed to integrate of what I have learned so far.</br> In this documentation, you should find, a list files contained within the project. Instructions for using Git, with Microsoft Visual Studio Code (as that is my preffered program currently), a 'to-do-list' (largely for my own record) detailing each stage of development I intend to go through. Following that would be an 'Updates' section, detailing the changes and progression of the project that actually occured. and lastly, would be a Credits section, for any inspiration/libraries or other asset source used in my project.</br></br>
 Kind regards,</br>Phillip Allen Pearson</p></br>
 <hr>
-<h2>UX</h2></br>
-Test
+<h2>UX</h2>
+<p>For building a website for the band 'Modus Operandi' as a Heavy Metal band, I have decided with an overall thematically dark scheme as it follows a typical convention between several mre popular bands, such as 'Slipknot' or 'Disturbed' for example. This should create a sense of familliarity with the user as it is likely that the type of user is the type to like other bands within the musical genre and have likely visited similar websites. Following the concept of using a dark theme, I have further followed this convention with a heavy charcoal grey in the header, footer and other elements such as the panels in the bio page. This charcoal grey (or a similar colour) is used with other dark themes websites, such as youtube's or even Microsoft Visual Studio's dark theme, which I find to much kinder on the eyes for viewing for longer periods of time. In keeping with the aestheitic of being an easy to navigate site, I have made the header and footer consistent through each page. It is easy to find, easiy identifiable, they are all the following the sane set of colours and carry the same effects.</p></br>
+
+Below follows a brief list of possible users and their desires for using the site;
+<ul>
+  <li><b>Band Member</b> -  As a band member, the site represents the band, so appropriate colour schemes, beffiting the ideologically tone, fashion, music style are a must. The website should be simple and easy to navigate, while providing useful information about the band, what they stand for, where our social networking profiles are. some videos, soundbites and other media, representing the overall personallity of the band and its individual members.
+  <li><b>The fans</b> - As a fan of the Band, I would be abe to find out what the band stands for idealogically, find out information about each band member and their role, watch some videos, and gain easy access to all of the band social networking profiles which may contain other information and media. I would be able to find out information about concert/event dates and potentially buy tickets.</li>
+  <li><b>Booking Agent</b> -  As a booking agent or I can go the contacts page and request email contact from the band. I would be able to see if the band already have booking and at what venues these events are taking place at.</li>
+</ul>
+Wireframes located here;
+https://github.com/phillpearsondev/phillpearsondev.github.io/tree/master/.theia/wireframes
 </br>
 
 <hr>
 
-<h2>Features</h2></br>
-test
-</br>
+<h2>Features</h2>
+Here follows a list of various features that appear over the core pages of the project.
 
-</br>
 <h3>Existing Features</h3></br>
 <ul>
-  <li>test 1</li>
-  <li>test 2</li>
+  <li><b>Navigation Bar</b> - Situated at the top and fixed so it always appears on the screen. The user always has access to it. This allows the user to easily travel between each of the sites core pages.</li>
+  <li><b>Header/Footer</b> - Are thematically consistent, with a similar color scheme, and hover effects. This should create a sense of familiarity and comfort, as they can always be easily identified.</li>
+  <li><b>Social Links</b> - Are contained within the footer, to allow the user to easily access the Bands various social networking profile, or media hosting platforms. These include; Facebook, Twitter, Instagram, Youtube, and the website the the record label to which they hold a contract.</li>
+  <li><b>Band Logo</b> - Allows the user to easily identify the homepage as belonging to the band.</li>
+  <li><b>Who We Are</b> - Home page heading serves thr bands mission statement.</li>
+  <li><b>Biography Panels</b> - Allows the user to scroll through each band member in turn. This keeps the information organised and each section is easily identifiable.</li>
+  <li><b>Embedded Youtube Videos</b> - Allows the user to preview some footage of the band.</li>
+  <li><b>Pandemic Warning</b> - A red 'div' which follows the convention for coronavirus warnings. informs the user that the content they are about the view will be effected the by pandemic.</li>
+  <li><b>Events Panels</b> - located in the events page, easily identifiable, contains date and basic location information, aswell as an option to buy ticket on the right.</li>
+  <li><b>Event Cancelled</b> - The tickets panel/button becomes a red 'div' when the event is cancelled.</li>
+  <li><b>Contact Form</b> - Allows the user to request contact by filling out their name and email.</li>
 </ul>
 </br>
 
@@ -33,7 +49,7 @@ In this section there are ideas of new features that i'd like to possibly implem
   <li>The abillity to sign up to a newsletter</li>
   <li>Search bar</li>
   <li>"Burger Menu Icon" (toggleable collapsable menu) for condensing The Navbar options into a more User friendly experience in Mobile sizes</li>
-</ul>
+</ul> 
 </br>
 
 <h2>Technologies Used</h2></br>
